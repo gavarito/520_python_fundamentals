@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 linguagem = input('Qual a melhor linguagem de programacao? ')
 linguagem = linguagem.lower().strip()
 if linguagem == 'python':
