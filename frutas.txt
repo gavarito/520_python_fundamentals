@@ -4,3 +4,6 @@ pera
 uva
 damasco
 jaca
+
+inga
+acerola

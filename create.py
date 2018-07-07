@@ -12,8 +12,8 @@ try:
         conteudo = arquivo.readlines()
         conteudo.insert(0, '#!/usr/bin/python3\n')
     with open(name, 'w+') as arquivo:
-         for x in conteudo:
-              arquivo.write(x)
+        for x in conteudo:
+            arquivo.write(x)
 
 except FileNotFoundError:
     with open(name, 'a') as arquivo:
